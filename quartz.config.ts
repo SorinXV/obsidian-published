@@ -19,7 +19,30 @@ const config: QuartzConfig = {
         body: "Source Sans Pro",
         code: "JetBrains Mono",
       },
-      colors: { ... }
+      colors: {
+        lightMode: {
+          light: "#faf8f8",
+          lightgray: "#e5e5e5",
+          gray: "#b8b8b8",
+          dark: "#2b2b2b",
+          darkgray: "#4e4e4e",
+          secondary: "#2e70b3",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#fff2a888",
+        },
+        darkMode: {
+          light: "#161618",
+          lightgray: "#393639",
+          gray: "#646464",
+          dark: "#d4d4d4",
+          darkgray: "#ebebec",
+          secondary: "#7b97aa",
+          tertiary: "#84a59d",
+          highlight: "rgba(143, 159, 169, 0.15)",
+          textHighlight: "#b3aa0288",
+        },
+      },
     },
   },
   plugins: {
